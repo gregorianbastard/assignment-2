@@ -1,0 +1,80 @@
+div.container{
+    padding: 10%;
+    justify-content: center;
+    display: grid ;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10rem 11rem 12rem;
+  
+}
+
+
+.container .bio:hover{
+    background-color: chartreuse;
+}
+.container .photo:hover{
+    background-color: chartreuse;
+}
+.container .edu:hover{
+    background-color: chartreuse;
+}
+.container .hobbies:hover{
+    background-color: chartreuse;
+}
+.container .contact:hover {
+    background-color: chartreuse;
+}
+
+.container .bio {
+    height:100%;
+    text-align: center;
+    display: flex;
+    
+   
+    align-items: center;
+    justify-content: center;
+   
+   
+    background-color: gray;
+}
+.container .photo{
+    height:100%;
+    text-align: center;
+    display: flex;
+    
+   
+    align-items: center;
+    justify-content: center;
+    background-color:midnightblue;
+}
+.container .edu{
+    height:100%;
+    text-align: center;
+    grid-area: top-right ;
+    background-color: dimgrey;
+    display: flex;
+    
+   
+    align-items: center;
+    justify-content: center;
+}
+.container .hobbies{
+    height:100%;
+    text-align: center;
+    background-color: cornflowerblue;
+    display: flex;
+    
+   
+    align-items: center;
+    justify-content: center;
+}
+.container .contact{
+    height:100%;
+    text-align: center;
+    background-color:rgb(243, 137, 95);
+    display: flex;
+    
+   
+    align-items: center;
+    justify-content: center;
+   
+}
